@@ -15,12 +15,7 @@ const UserItem = ({ user }) => {
       />
       <h3>{login}</h3>
       <div>
-        <Link
-          to={`/user/${login}`}
-          className="btn btn-dark btn-sm my-1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link to={`/user/${login}`} className="btn btn-dark btn-sm my-1">
           View More
         </Link>
       </div>
