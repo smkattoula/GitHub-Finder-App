@@ -3,9 +3,9 @@ import React, { Fragment } from "react";
 const About = () => {
   return (
     <Fragment>
-      <h1>About This App</h1>
-      <p>App to search GitHub Users</p>
-      <p>Verison: 1.0.0</p>
+      <h1>About GitHub Finder</h1>
+      <h2>Use this application to search for GitHub Users</h2>
+      <h3>Verison: 1.0.0</h3>
     </Fragment>
   );
 };
